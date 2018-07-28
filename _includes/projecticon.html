@@ -1,0 +1,5 @@
+<div class="col-xs-12">
+  <a href="{{ include.url | relative_url }}" class="post-image" style="background-image: url('{{ "img/" | relative_url }}{{ include.image }}');"></a>
+  <a href="{{ include.url | relative_url }}"><h4 class="project-title">{{ include.title }}</h4></a>
+<p class="project-description">{{ include.description }}</p>
+</div>

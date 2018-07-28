@@ -1,0 +1,232 @@
+<!-- Time -->
+
+<script>
+/*!
+* ReplaceMe.js 1.0.0 - Text Rotating Component in Pure JavaScript
+* Copyright 2016 Adrian Klimek
+* Released under the MIT license
+*/
+(function(window, $) {
+    'use strict';
+    function extend(target, values) {
+        for (var P in values) {
+            if (values.hasOwnProperty(P)) {
+                target[P] = values[P];
+            }
+        }
+        return target;
+    }
+    function jqueryComponent() {
+        if (typeof $ != 'undefined') {
+            console.log(1);
+            $.fn.extend({
+                ReplaceMe: function(options) {
+                    return this.each(function() {
+                        if (!options) {
+                            options = {};
+                        }
+                        options.element = this;
+                        new ReplaceMe(options);
+                    });
+                }
+            });
+        }
+    }
+    function ReplaceMe() {
+        var defaults = {
+            element: document.querySelector('.replace-me'),
+            animation: 'animated fadeIn',
+            speed: 4000,
+            separator: '|',
+            hoverStop: false,
+            clickChange: false,
+            loopCount: 'infinite',
+            autoRun: true,
+            onInit: false,
+            onChange: false,
+            onComplete: false
+        };
+        if (typeof arguments[0] == 'object') {
+            this.options = extend(defaults, arguments[0]);
+        }
+        else {
+            this.options = defaults;
+        }
+        this.init();
+    }
+    ReplaceMe.prototype.init = function() {
+        if (typeof this.options.onInit == 'function') {
+            this.options.onInit();
+        }
+        this.getElements();
+        this.setVariables();
+        this.bindAll();
+        if (this.options.autoRun === true) {
+            this.start();
+        }
+    };
+    ReplaceMe.prototype.getElements = function() {
+        if (typeof this.options.element == 'string') {
+            this.element = document.querySelector(this.options.element);
+        }
+        else {
+            this.element = this.options.element;
+        }
+    };
+    ReplaceMe.prototype.setVariables = function() {
+        this.words = this.testWords(this.element.innerHTML).split(this.options.separator);
+        this.count = this.words.length;
+        this.position = this.loopCount = 0;
+        this.running = false;
+    };
+    ReplaceMe.prototype.bindAll = function() {
+        if (this.options.hoverStop === true) {
+            this.element.addEventListener("mouseover", this.pause.bind(this));
+            this.element.addEventListener("mouseout", this.start.bind(this));
+        }
+        if (this.options.clickChange === true) {
+            this.element.addEventListener("click", this.change.bind(this));
+        }
+    };
+    ReplaceMe.prototype.changeAnimation = function() {
+        this.change();
+        this.loop = setTimeout(this.changeAnimation.bind(this), this.options.speed);
+    };
+    ReplaceMe.prototype.start = function() {
+        if (this.running !== true) {
+            this.running = true;
+            this.changeWord(this.words[this.position]);
+            this.position++;
+        }
+        this.loop = setTimeout(this.changeAnimation.bind(this), this.options.speed);
+    };
+    ReplaceMe.prototype.change = function() {
+        if (this.position > this.count - 1) {
+            this.position = 0;
+            this.loopCount++;
+            if (this.loopCount >= this.options.loopCount) {
+                this.stop();
+                return;
+            }
+        }
+        this.changeWord(this.words[this.position]);
+        this.position++;
+        if (typeof this.options.onChange == 'function') {
+            this.options.onChange();
+        }
+    };
+    ReplaceMe.prototype.stop = function() {
+        this.running = false;
+        this.position = this.loopCount = 0;
+        this.pause();
+        if (typeof this.options.onComplete == 'function') {
+            this.options.onComplete();
+        }
+    };
+    ReplaceMe.prototype.pause = function() {
+        clearTimeout(this.loop);
+    };
+    ReplaceMe.prototype.changeWord = function(word) {
+        this.element.innerHTML = '<span class="' + this.options.animation + '" style="display:inline-block;">' + word + '</span>';
+    };
+    ReplaceMe.prototype.testWords = function(words) {
+        var reg = /<\/?\w+\s*[^>]*>/g;
+        if (reg.test(words) === true) {
+            return words.replace(reg, '');
+        }
+        return words;
+    };
+    window.ReplaceMe = ReplaceMe;
+    jqueryComponent();
+}(window, window.jQuery));
+
+
+</script>
+
+<!-- Scripts Initialise -->
+<script src="/js/modal-video.min.js"></script>
+
+<script>
+
+new ModalVideo('.js-modal-btn');
+
+var replace = new ReplaceMe({
+	hoverStop: true,
+  lickChange: true,
+  speed: 10000,
+  animation: 'slideInUp animated',});
+
+</script>
+
+<!-- Time -->
+
+<script>
+(function () {
+
+  var clockElement = document.getElementById( "clock" );
+
+  function updateClock ( clock ) {
+
+    var dateWithoutSecond = new Date();
+    clock.innerHTML = dateWithoutSecond.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
+</script>
+
+{% if page.videos != nil %}
+<script>
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/maxresdefault.jpg">',
+            play = '<div class="play"><svg version="1.1" x="0px" y="0px" viewBox="0 0 415.346 415.346" style="enable-background:new 0 0 415.346 415.346;" xml:space="preserve" width="512px" height="512px"><path d="M41.712,415.346c-11.763,0-21.3-9.537-21.3-21.3V21.299C20.412,9.536,29.949,0,41.712,0l346.122,191.697    c0,0,15.975,15.975,0,31.951C371.859,239.622,41.712,415.346,41.712,415.346z" fill="#FFFFFF"/></svg></div>';
+
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?autoplay=1&amp;rel=0&amp;showinfo=0";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
+{% endif %}
+
+{% if site.analytics_id %}
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.analytics_id }}', 'auto');
+    ga('send', 'pageview');
+</script>
+{% endif %}

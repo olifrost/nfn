@@ -1,0 +1,48 @@
+
+<header>
+  <div class="container" id="ticker">
+    <div class="max-width">
+
+
+
+
+        <div class="row">
+        <div class="col-xs-6" style="float:left;" id="tickertext">
+
+        <span id="breaking">BREAKING:</span> <span class="replace-me">
+          {% for post in site.posts limit:5 %}
+          {% if post.url != page.url %}
+          <a href="{{ post.url }}">{{ post.title}}</a>{% if forloop.last == false %}|{% endif %}
+          {% endif %}
+          {% endfor %}
+        </span>
+        </div>
+        <div class="col-xs-6 end-xs weather" style="float:right;">
+          <span id="clock"></span>
+          {% include icon-sun %}
+          <span>23°</span>
+        </div>
+      </div>
+
+
+  </div>
+</div>
+  <div class="container" id="mast">
+
+      <div class="max-width">
+
+
+
+          <div class="" style="float-left;">
+              <div class="">
+                  {% include actions.html %}
+              </div>
+          </div>
+
+          <!--<div class="col-xs col-sm-3 col-lg-2 end-xs socialpages">
+              <span class="nav-button social-link float-right">{% include icon-twitter.html %}{% include icon-facebook.html %}</span>
+          </div>-->
+
+
+      </div>
+</header>

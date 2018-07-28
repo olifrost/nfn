@@ -1,0 +1,208 @@
+// Posts and pages
+//
+// Each post is wrapped in `.post` and is used on default and post layouts. Each
+// page is wrapped in `.page` and is only used on the page layout.
+
+
+
+
+.content {
+//border-top: 3px solid $color-primary;
+  padding-right: 1.5rem;
+  min-height: 88vh;
+}
+
+.topic {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+
+
+.content {
+  padding-top: 1.5rem;
+}
+
+.post, .posts{
+margin-top: 1.5rem;
+}
+
+.project-list {
+  margin-left: -2rem;
+  margin-right: -2rem;
+
+}
+
+.project-title {
+  margin: 1.5rem 0rem;
+  /*margin-bottom: 0.5rem;*/
+
+}
+
+.project-icon img {
+  min-height: 100%;
+  width: auto;
+}
+
+
+.project-column {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project-description {
+  margin-bottom: 0;
+
+  color: $gray-3;
+}
+
+.post-image {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+}
+
+
+.page-image {
+  margin-bottom: 2.5rem;
+}
+
+.post-image:after {
+  padding-top: 56.25%;
+  /* 16:9 ratio */
+  display: block;
+  content: '';
+}
+
+.post-info {
+//  margin-bottom: 2.5rem;
+}
+.share-list a {
+  float: right;
+}
+
+.post-description {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: $gray-3;
+}
+
+.post-content:first-child p:before {
+  content: "(NFN) – ";
+  font-weight: bold;
+}
+
+
+.post img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.post figure, .youtube-player {
+  margin-bottom: 1.75rem;
+}
+
+// Special Classes
+
+.portrait {
+  width: 100%;
+}
+
+.border {
+  border: 1px solid $gray-2;
+}
+
+.logo {
+  text-align: center;
+  font-style: italic;
+
+  img {
+    margin-bottom: 0rem !important;
+  }
+}
+
+
+.caption {
+  quotes: "“" "”" "‘" "’";
+  margin: 0;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.caption::before {
+  content: open-quote;
+}
+
+.caption::after {
+  content: close-quote;
+}
+
+
+
+// Blog post or page title
+
+.page-title,
+.post-title {
+  margin-top: 0;
+  display: inline-block;
+
+}
+
+.date {
+  font-weight: normal;
+}
+
+// sidebar
+
+.sidebar {
+  padding-left: 2.5rem;
+  display: none;
+}
+
+/* Larger than mobile screen */
+@media (min-width: $third-breakpoint) {
+  .sidebar {
+    display: block;
+  }
+}
+
+
+
+.side-header {
+  background-color: $gray-4;
+  width: 100%;
+  padding: 1rem;
+  font-weight: strong;
+}
+
+.trending {
+h6 {
+  display: inline-block;
+  white-space: auto;
+}
+a {
+  display: inline-block;
+}
+
+}
+.trending li {
+  border-bottom: 1px solid $gray-2;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+
+/* Dark Page */
+
+.page {
+  .full-width {
+    background-color: #0c0c0c;
+    color: white;
+    border-top: 3px solid #BE0712;
+  }
+}

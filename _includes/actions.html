@@ -1,0 +1,60 @@
+<script type="text/javascript">
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function Hamburger() {
+    var x = document.getElementById("myTopnav");
+    var y = document.getElementById("bars");
+    y.classList.toggle("change");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+
+    } else {
+        x.className = "topnav";
+
+    }
+}
+</script>
+
+<ul class="topnav" id="myTopnav">
+
+    <a id="title-link" href="/">
+
+    <img src="{{ "/img/logo.png " | relative_url }}" class="animated slideInDown" >
+
+   </a>
+
+     <a class="tag divide {% if page.url == "/" %}highlighted{% endif %}" href="{{ "/" | relative_url }}">
+
+     Home
+   </a>
+
+  <a class="divide {% if page.url == "nicenews.live/mission/" %}highlighted{% endif %}" href="{{ "/mission" | relative_url }}">Our Mission</a>
+  <a class="tag divide {% if page.url == "nicenews.live/donate/" %}highlighted{% endif %}" href="{{ "/donate" | relative_url }}">Donate</a>
+  <a class="tag divide {% if page.url == "nicenews.live/submit/" %}highlighted{% endif %}" href="{{ "/submit" | relative_url }}">Submit</a>
+  <a class="tag divide {% if page.url == "nicenews.live/joinus/" %}highlighted{% endif %}" href="{{ "/joinus" | relative_url }}">Join Us</a>
+  <a class="tag divide {% if page.url == "nicenews.live/joinus/" %}highlighted{% endif %}" href="{{ "/faq" | relative_url }}">FAQ</a>
+  <a class="js-modal-btn  " data-video-id="{{ site.video }}">
+    <span id="play-button" class="nav-button inline-icon baseline">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+       <g id="play-circle-outline">
+         <path d="M204,369.75L357,255L204,140.25V369.75z M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255    S395.25,0,255,0z M255,459c-112.2,0-204-91.8-204-204S142.8,51,255,51s204,91.8,204,204S367.2,459,255,459z" fill="#FFFFFF"/>
+       </g>
+      </svg>
+    </span>
+  <span>NFN</span>
+  </a>
+
+  <a class="corner-right" href="{{ "/mission" | relative_url }}">
+  Log In
+  </a>
+  <a href="javascript:void(0);" class="bars-link" onclick="Hamburger()">
+    <div class="bars" id="bars">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+  </a>
+
+
+
+
+</ul>

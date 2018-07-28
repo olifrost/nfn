@@ -1,0 +1,32 @@
+<div>
+	<span id="share-container">
+	<span class="shares" id="shares"><span id="thesharecount" class="sharecount"></span> <span class="shares-word">shares</span></span>
+	<a class="share-button twitter" href="https://twitter.com/intent/tweet?text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ page.url | replace:'index.html','' | prepend: site.url }}&amp;via={{ twitter.username }}" target="_blank"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
+	<a class="share-button facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.url }}" target="_blank"><span class="icon icon--twitter">{% include icon-facebook.svg %}</span></a>
+</span>
+</div>
+
+<script src="/js/countUp.js"></script>
+<script type="text/javascript">
+
+var shareCounters = document.getElementsByClassName('sharecount');
+var thesharecount = shareCounters[0];
+
+var count = Math.floor(Math.random() * 2000) + 1000;
+var beforecount = count - 50;
+
+var numAnim = new CountUp("thesharecount", beforecount, count);
+numAnim.start();
+
+function tick(){
+    count += Math.round(Math.random()*3);
+		numAnim.update(count);
+    setTimeout(tick,Math.round(3000+Math.random()*2000));
+}
+tick();
+
+//count = sharenumber.toLocaleString();
+//shareCounters[0].innerHTML = count;
+//shareCounters[1].innerHTML = count;
+
+</script>

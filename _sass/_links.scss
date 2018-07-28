@@ -1,0 +1,40 @@
+a {
+	color: $color-tertiary;
+	text-decoration: none;
+	transition: 0.3s;
+
+	&:hover {
+		color: $color-primary;
+
+	}
+
+}
+
+header a {
+	&:hover {
+		color: #FFFFFF;
+
+	}
+}
+
+
+a {
+	h1, h2, h3, h4, h5, h6 {
+	color: $black;
+	}
+	h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+	color: $color-primary;
+	transition: 0.3s;
+	}
+}
+
+
+
+.icon:hover svg path {
+
+  transition: 0.3s;
+}
+
+header a:hover {
+
+}

@@ -1,0 +1,132 @@
+---
+layout: default
+title: NFN
+---
+
+
+
+  <div class="row">
+
+      <div class="col-xs-12 ">
+          <div class="post-info">
+
+              <h1 class="post-title">{{ page.title }}</h1>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 col-sm-6 ">
+          <p class="post-description">
+              <span class="post-author">By <a href="http://olifro.st">Oli Frost</a>, NFN</span><br>
+              <time id="date" class="date icon--timestamp el-timestamp"> Updated
+                <script>
+                    var d = new Date();
+                    document.getElementById("date").innerHTML = " Updated " + d.toDateString();;
+                </script>
+              </time>
+          </p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 share-list">
+          {% include share-this.html %}
+      </div>
+  </div>
+
+  <div class="row post">
+
+<!-- Edit for Film -->
+      <article class="col-xs-12 col-lg-8">
+
+          <div href="{{ include.url | relative_url }}" class="post-image page-image" style="background-image: url('{{ page.image | relative_url }}');"></div>
+          <div class="post-content">
+              {{ page.content }}
+              <span class="normal">—
+                 <em><a href="/mission">NFN's Oliver Frost contributed to this report.</a></span><p></p></em>
+                 <!--<em>Help spread niceness by sharing this story.</em>-->
+                </div>
+
+
+      </article>
+
+      <aside class="col-xs-12 col-lg-4 sidebar">
+          <div class="trending">
+              <h5 class="side-header">Trending Now</h5>
+
+
+              <ol>
+                  {% if post.url != page.url %}
+                  {% for post in site.posts limit:5 %}
+                  <li> <a href="{{ site.baseurl }}{{ post.url }}"><h6 class="project-title">{{ post.title }}</h6></a></li>
+                  {% endfor %}
+                  {% else %}
+                  {% for post in site.posts limit:6 %}
+                  <li> <a href="{{ site.baseurl }}{{ post.url }}"><h6 class="project-title">{{ post.title }}</h6></a></li>
+                  {% endfor %}
+                  {% endif %}
+
+              </ol>
+
+          </div>
+
+      </aside>
+
+  </div>
+  <div class="row">
+
+      <aside class="related">
+          <hr>
+          <div class="posts">
+              <div class="row top-xs project-list">
+                  {% if post.url != page.url %}
+                  {% for post in site.posts limit: 3 %}
+
+                  <div class="project-column col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                      <div class="project-content">
+
+                          <div class="project-icon row">
+
+                              <div class="col-xs-12">
+                                  <a href="{{ post.url | relative_url }}" class="post-image" style="background-image: url('{{ post.image | relative_url }}');"></a>
+                                  <a href="{{ post.url | relative_url }}"><h4 class="project-title">
+                                    {{ post.title }}
+
+                                  </h4></a>
+                                  <p class="project-description">{{ post.description }}</p>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+                  {% endfor %}
+                  {% else %}
+
+                  {% for post in site.posts limit:4 %}
+                  {% if post.url != page.url %}
+                  <div class="project-column col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                      <div class="project-content">
+
+                          <div class="project-icon row">
+
+                              <div class="col-xs-12">
+                                  <a href="{{ post.url | relative_url }}" class="post-image" style="background-image: url('{{ post.image | relative_url }}');"></a>
+                                  <a href="{{ post.url | relative_url }}"><h4 class="project-title">
+                                    {{ post.title }}
+
+                                  </h4></a>
+                                  <p class="project-description">{{ post.description }}</p>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+                  {% endif %}
+                  {% endfor %}
+
+                  {% endif %}
+
+              </div>
+          </div>
+
+      </aside>
+
+  </div>

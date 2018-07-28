@@ -1,0 +1,37 @@
+
+/*.with-image {
+  padding-bottom: 50%;
+}*/
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px $red, 1.5em 0 0 2px $yellow, 3em 0 0 2px $green;
+}
+
+.browser-mockup.with-url:after {
+  display: block;
+  position: absolute;
+  content: attr(data-url);
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  line-height: 1.2em;
+  padding-left: 0.8rem;
+  border-radius: 2px;
+  background-color: white;
+  color: $color-gray;
+
+}
+
+.browser-mockup > * {
+  display: block;
+}

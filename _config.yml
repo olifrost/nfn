@@ -1,0 +1,58 @@
+# Permalinks
+permalink:           :slug/
+
+# Setup
+title:               NFN International - Breaking news, world news, weather
+tagline:             Nice Fake News
+description:         "Fake news has torn our world apart, so now fake news must mend it."
+footer:              Oli Frost
+logo:                /img/nfn-preview.png
+tags:
+video:               PPwZPhOHRgg
+
+# Markdown
+collections:
+  collections:
+    output: true
+    permalink: :title/
+
+# SASS
+sass:
+  sass_dir:          _sass
+  style:            compressed
+
+# Google Analytics
+analytics_id:  UA-111749648-1
+
+# SEO
+author:
+  name: Oli Frost
+  twitter: realolifrost
+  email: mail@olifro.st
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: img/nfn.png
+
+twitter:
+  username: nicefakenews
+
+facebook:
+  username: nicefakenews
+
+social:
+  name: Nice Fake News
+  links:
+    - https://www.facebook.com/nicefakenews/
+    - https://twitter.com/nicefakenews
+# Excludes
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from

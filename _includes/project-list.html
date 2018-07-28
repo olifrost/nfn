@@ -1,0 +1,67 @@
+<div class="posts">
+  <div class="row top-xs project-list">
+
+<!-- Featured -->
+  {% assign first = site.posts.first %}
+
+    <div class="project-column featured col-xs-12 col-sm-6 col-md-12">
+      <div class="project-content">
+
+              <div class="project-icon row">
+
+                <div class="col-xs-12 first-sm col-md-6">
+                  <!--<span class="topic">{{ post.tags }}</span>-->
+                  <a href="{{ first.url | relative_url }}" class="post-image" style="background-image: url('{{ first.image | relative_url }}');"></a>
+
+                </div>
+
+                <div class="col-xs-12 last-sm col-md-6">
+                  <a href="{{ first.url | relative_url }}"><h4 class="project-title">
+
+                  {{ first.title }}
+                  </h4></a>
+                <p class="project-description">
+                  {{ first.description }}
+                  <br>
+
+                <time class="date icon--timestamp el-timestamp"> 2h  |  {{ first.tags }}</time></p>
+                </div>
+
+
+
+
+              </div>
+
+      </div>
+    </div>
+
+<!-- Articles -->
+
+  {% for post in site.posts %}
+    {% if post.url != page.url %}
+    {% if post.url != first.url %}
+    <div class="project-column col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="project-content">
+
+              <div class="project-icon row">
+
+                <div class="col-xs-12">
+                  <!--<span class="topic">{{ post.tags }}</span>-->
+                  <a href="{{ post.url | relative_url }}" class="post-image" style="background-image: url('/thumbnail{{ post.image | relative_url }}');"></a>
+                  <a href="{{ post.url | relative_url }}"><h4 class="project-title">
+                  {{ post.title }}
+                  </h4></a>
+                <p class="project-description">{{ post.description }}</p>
+                </div>
+
+              </div>
+
+      </div>
+    </div>
+
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  </div>
+</div>

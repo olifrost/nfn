@@ -1,0 +1,23 @@
+<footer class="full-width">
+  <div class="max-width">
+  <div class="container">
+    <div class="row middle-xs">
+
+      <div class="col-xs-6 col-sm-7 categories">
+    <div class="row middle-md start-md max-width" style="height:100%">
+            {% include categories.html %}
+      </div>
+      </div>
+
+        <div class="col-xs-6 col-sm-5" style="height:100%">
+          <div class="row" id="copyright">
+          <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }} NFN | <a href="http://olifro.st" id="me">{{ site.footer }}</a></time>
+          </small>
+        </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</footer>
