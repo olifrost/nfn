@@ -32,7 +32,7 @@ From hi-jacking verified accounts, to developing bot networks.
 
 We will use whatever means is necessary.
 
-To join you must request access to the private group on Slack
+To participate you must join chat our Russian Discord server.
 
 <div id="slack">
 <a href="http://nicefakenews.slack.com">
