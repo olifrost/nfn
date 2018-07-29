@@ -18,7 +18,7 @@ On average, each minute we spend on our phone will bring about 1 minute of usage
 
 This also means that not using our phones has an exponential effect on how much others use theirs too.
 
-But beyond the health impacts, Vanessa Bonnington, a sociologist at the research centre, thinks the change is part of a general shift in consumer preferences:
+But beyond the health impacts, Vanessa Bobinton, a sociologist at the research centre, thinks the change is part of a general shift in consumer preferences:
 
 > "People are craving more real, tangible experiences. The short term rewards of Likes and Comments are losing the allure that once held people to their phones".
 

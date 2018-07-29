@@ -3,7 +3,7 @@ layout: post
 title: Blind Kittens See String For The First Time
 image: /img/blind-cat.jpg
 tags: Breakthroughs
-description:  The life-changing implant could be available publically.
+description:  A life changing implant could soon be available publicly.
 ---
 
 Missy, Tiger, and Coco were born with a genetic disease that left them blind at birth.

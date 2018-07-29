@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Submit
+description: Have a tip? Submit a Nice Fake News story to our editors
 ---
 
 <style>

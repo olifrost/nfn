@@ -3,6 +3,7 @@ layout: page
 title: Donate
 permalink: donate.html
 videos: true
+image: /img/NFN4.jpg
 date: '2016-11-17T06:41:36+00:00'
 ---
 
