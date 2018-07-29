@@ -15,6 +15,11 @@ article {
   color: white;
 }
 
+textarea, input {
+  color: white;
+  font-size: 1.6rem;
+}
+
 header {
   border-bottom: 3px solid #BE0712;
 }
@@ -31,6 +36,6 @@ header {
 
   <label for="Email">Contact (Optional):</label>
   <input type="email" name="replyto"  id="Email" placeholder="So we can credit you">
-
+<input type="hidden" name="_next" value="http://nicenews.live/thanks" />
     <input type="submit" value="Submit" class="submit-button">
 </form>
