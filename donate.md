@@ -29,7 +29,7 @@ a {
 
 </style>
 
-*Donations are used to boost posts on Facebook to a susceptible audience.*
+*Donations are used to boost nice posts on Facebook to a susceptible audience.*
 
 ![](/img/NFN4.jpg)
 
