@@ -47,8 +47,11 @@ Nice Fake News uses a common technique called 'dark posting'. It means posts can
 **How can I help?**  
 Share a story in your feed and spread some niceness. If you're a writer you can [write a story](/submit), if you are a hacker you can [seed a story](/joinus), and if you have money you can [fund story promotions](/donate) in cash or bitcoin.
 
-**Can I use the images on this site?**  
-Yes.
+**Can I share the images/videos on this site?**  
+Yes, [download some here](/images.zip). The site is also open source.
+
+**You haven't answered my question?**  
+You can contact [Оли Фрост](mailto:mail@olifro.st).
 
 **My cat has just had kittens. Will you share my story?**  
 No. We only publish false nice news stories.
