@@ -72,8 +72,6 @@ Yours,
 <a href="http://olifro.st" class="russian">Оли Фрост</a>  
 The Nice Russian Hacker
 
-Go to <a href="/faq/">FAQ</a>
-
 
 ![Nice Fake News](/img/NFN3.jpg)
 
