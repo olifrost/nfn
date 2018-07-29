@@ -3,7 +3,6 @@ layout: page
 title: We Are Anonynice
 permalink: /joinus.html
 image: /img/nfn-1.jpg
-date: '2016-11-17T06:41:36+00:00'
 ---
 
 <style>
