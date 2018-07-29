@@ -25,7 +25,7 @@ a {
 
 </style>
 
-*For a brief overview see our [mission statement](/mission)*
+*For a brief overview see our [mission statement](/mission)*.
 
 ![](/img/NFN1.jpg)
 
