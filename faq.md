@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frequently Asked Questions
-permalink: faq.html
+permalink: /faq.html
 image: /img/NFN1.jpg
 date: '2016-11-17T06:41:36+00:00'
 ---

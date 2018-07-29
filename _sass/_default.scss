@@ -498,9 +498,8 @@ header, footer {
   display: none;
 }
 
-#tickertext, .replace-me {
-  visibility: hidden !important;
-
+#breaking, .replace-me {
+  display: none;
 }
 
 .highlighted {
@@ -508,11 +507,16 @@ header, footer {
 }
 
 
+@media screen and (min-width: 795px) {
+
+#breaking, .replace-me {
+  display: inline-block;
+}
+
+}
 
 @media screen and (min-width: 795px) {
-  #tickertext {
-    visibility: visible;
-  }
+
 
 
   .topnav {

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Submit
+permalink: /submit.html
 description: Have a tip? Submit a Nice Fake News story to our editors
 ---
 
