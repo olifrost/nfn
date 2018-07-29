@@ -46,7 +46,7 @@ Like other fake news sites, NFN spoofs the appearance of a trusted news source l
 Nice Fake News uses a common technique called 'dark posting'. It means posts can be promoted without being made public. This makes it harder to regulate what information is being shared.
 
 **How can I help?**  
-Share a story in your feed and spread some niceness. Also, if you are a writer you can [write a story](/submit), if you are a hacker you can [seed a story](/joinus), and if you have money you can [fund story promotions](/donate) in cash or bitcoin.
+Share a story in your feed and spread some niceness. If you're a writer you can [write a story](/submit), if you are a hacker you can [seed a story](/joinus), and if you have money you can [fund story promotions](/donate) in cash or bitcoin.
 
 **Can I use the images on this site?**  
 Yes.
