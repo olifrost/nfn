@@ -3,7 +3,7 @@ layout: post
 title: Watching Netflix Makes You Smarter, Funnier, And Better In Bed
 image: /img/netflix.jpg
 tags: Well-being
-description: The study took place over 2 years.
+description: Based on a two year study.
 
 ---
 

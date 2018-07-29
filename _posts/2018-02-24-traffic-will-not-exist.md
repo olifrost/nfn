@@ -3,7 +3,7 @@ layout: post
 title: Traffic Will Not Exist in 2026
 image: /img/traffic.jpg
 tags: Breakthroughs
-description: A Cambridge lab is close to perfecting real teleportation.
+description: A Cambridge lab is close to developing real teleportation.
 ---
 
 Traffic, as a worldwide phenomenon has existed almost as long as the horse and cart.

@@ -3,7 +3,7 @@ layout: post
 title: Big-Nosed Monkeys Get Nosejobs
 image: /img/monkey-nose.jpg
 tags: Inspiring
-description: Local fund operation for indigenous population.
+description: Locals fund operation for indigenous population.
 
 ---
 

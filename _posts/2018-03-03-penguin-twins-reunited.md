@@ -3,10 +3,10 @@ layout: post
 title: Penguin Twins Reunited
 image: /img/penguin-twins.jpg
 tags: Inspiring
-description: They lived on opposite sides of Antarctica for seven years.
+description: Twins lived on opposite sides of Antarctica for 8 years.
 ---
 
-Shrimpy and Fishcakes, two emperor penguins, were separated shortly after birth following a mile-long iceberg split in 2011.
+Shrimpy and Fishcakes, two emperor penguins, were separated shortly after birth following a mile-long iceberg split in 2010.
 
 The two lived apart for seven years on opposite ends of Antarctica, until one eagle-eyed explorer for the Antarctica Survey noticed an unusual likeness between the colouring under their wings.
 
