@@ -544,6 +544,10 @@ header, footer {
     display: inline-block;
     border-bottom: none;
   }
+  .topnav a:nth-child(1) {
+    display: inline-block;
+    border-bottom: none;
+  }
 
 
 
@@ -573,6 +577,9 @@ header, footer {
     padding-left: 0;
 
 
+  }
+  .topnav.responsive .corner-right {
+    display: none;
   }
  .topnav.responsive .divide {
   border-bottom: 1px solid $gray-7 !important;

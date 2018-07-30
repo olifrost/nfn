@@ -29,7 +29,12 @@ a {
 
 </style>
 
-*Donations are used to promote posts on Facebook to a susceptible audience.*
+*Donations are used to promote posts on your corrupt social networks.*
+
+Just £1 will deceive over 100 people with something nice.
+
+And get you listed alongside our other offshore investors.
+
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypal">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -51,20 +56,6 @@ Donate
 3EARR434ThGwwbmPWNBt4nbfPA9psLbhKy
 </button>
 </div>
-
-![](/img/NFN4.jpg)
-
-
-
-Just £1 will deceive over 100 people with something nice.
-
-You can also help by sharing the articles on your corrupt social network of choice.
-
-*Below is list of initial investors reached on the dark web. New contributions will be added here daily.*
-
-
-
-
 
 <table>
   <thead>

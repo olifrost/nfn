@@ -27,8 +27,6 @@ a {
 
 *For a brief overview see our [mission statement](/whoarewe)*.
 
-![](/img/NFN1.jpg)
-
 **What is NFN (Nice Fake News)?**  
 NFN is fake news site that publishes only the nicest lies – the ones that crush fears, bring smiles, and make you almost want to be a good person.
 
@@ -55,3 +53,5 @@ You can contact [Оли Фрост](mailto:mail@olifro.st).
 
 **My cat has just had kittens. Will you share my story?**  
 No. We only publish false nice news stories.
+
+![](/img/NFN1.jpg)

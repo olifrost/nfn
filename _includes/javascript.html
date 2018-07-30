@@ -156,6 +156,18 @@ var replace = new ReplaceMe({
   speed: 10000,
   animation: 'slideInUp animated',});
 
+
+</script>
+
+<script type="text/javascript">
+
+window.onload = function () {
+    if (localStorage.getItem("hasCodeRunBefore") === null) {
+        document.getElementById("play-button").click();
+        localStorage.setItem("hasCodeRunBefore", true);
+    }
+}
+
 </script>
 
 <!-- Time -->

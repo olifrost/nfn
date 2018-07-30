@@ -2,7 +2,7 @@
 layout: page
 title: "We Are Anonynice"
 permalink: /whoarewe.html
-description:  "A group of Russian hackers with the goal of spreading nice fake news."
+description:  "A group of Russian hackers who spread nice fake news."
 image: /img/nfn-1.jpg
 ---
 
@@ -42,13 +42,21 @@ a {
 
 </style>
 
-A group of Russian hackers with the goal of spreading nice fake news.
+A group of Russian hackers who spread <a href="/">nice fake news</a>.
 
- Stories are promoted on Facebook <a href="{{ "/donate " | relative_url }}">using offshore financing</a>, and <a href="{{ "/joinus" | relative_url }}">seeded by our hacker network</a>.
+From developing bot networks, to hi-jacking verified accounts.
+
+We will use whatever means is necessary.
 
 <div class="youtube-player">
 <iframe src="https://www.youtube.com/embed/{{ site.video }}?rel=0&amp;modestbranding=1;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+
+Stories are promoted on your corrupt social networks <a href="{{ "/donate " | relative_url }}">using offshore financing</a>.
+
+And further spread by our <a href="{{ "/joinus" | relative_url }}">hacker network</a>.
+
+![Nice Fake News](/img/NFN6.jpg)
 
 Our demands are simple.
 
@@ -56,7 +64,7 @@ We are giving news organisations <strong id="thecountdown"></strong> to publish 
 
 Else we will promote another fake one.
 
-![Nice Fake News](/img/NFN6.jpg)
+![](/img/NFN4.jpg)
 
 Until then, share an article and spread some niceness.
 
