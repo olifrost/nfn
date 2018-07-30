@@ -25,21 +25,21 @@ a {
 
 </style>
 
-*For a brief overview see our [mission statement](/mission)*.
+*For a brief overview see our [mission statement](/whoarewe)*.
 
 ![](/img/NFN1.jpg)
 
-**What is Nice Fake News?**  
-Fake news, unlike satire, is news meant with the intention of deceiving the public. Nice Fake News is fake news that does this for a good cause: to create smiles, crush fears, or inspire you to donate your kidneys
+**What is NFN (Nice Fake News)?**  
+NFN is fake news site that publishes only the nicest lies – the ones that crush fears, bring smiles, and make you almost want to be a good person.
 
 **Why have you created Nice Fake News?**  
-Fake news has been used by our enemies to disrupt elections and defame the innocent. Until the real news fights back, the fake news must stand in.
+Fake news has torn our world apart by disrupting elections and defaming the innocent. Until the real news fights back, the fake news must stand in.
 
 **Who created Nice Fake News?**  
-NFN is created by notorious Russian hacker [Оли Фрост](http://olifro.st). Like most fake news it is supported by [overseas investment](/donate) and a [group of hackers](/joinus).
+NFN is created by [Anonynice](/joinus), a group founded by friendly Russian hacker <a href="http://olifro.st" class="russian">Оли Фрост</a>. Like most fake news it is also supported by [offshore financing](/donate).
 
 **How do you make Nice Fake News?**  
-Like other fake news sites, NFN spoofs the appearance of a trusted news source like CNN. Stories are then are promoted over corrupt social networks and seeded by other illicit means. To make things easier, over [6 in 10 people will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
+Like other fake news sites, NFN spoofs the appearance of a 'trusted' news source like CNN. Stories are then are promoted over corrupt social networks and seeded by other illicit means. To make things easier, over [6 in 10 people will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
 
 **Why can't I see the posts on your Facebook/Twitter?**  
 Nice Fake News uses a common technique called 'dark posting'. It means posts can be promoted without being made public. This makes it harder to regulate what information is being shared.

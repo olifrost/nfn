@@ -1,6 +1,6 @@
 ---
 layout: page
-title: We Are Anonynice
+title: Join Anonynice
 permalink: /joinus.html
 image: /img/nfn-1.jpg
 ---
@@ -25,17 +25,7 @@ image: /img/nfn-1.jpg
 
 </style>
 
-*A group of hackers with the goal of spreading nice fake stories.*
-
-![Oli Frost](/img/nfn-1.jpg)
-
-
-
-From hi-jacking verified accounts, to developing bot networks.
-
-We will use whatever means is necessary.
-
-To participate you must join our Russian Discord server.
+*To participate you must join our Russian Discord server.*
 
 <div id="slack">
 <a href="https://discord.gg/eh4a5D">
@@ -50,5 +40,10 @@ Join Discord
 </a>
 </div>
 
-<a href="https://discord.gg/GuW3egY">Alternative Link 1</a><br>
-<a href="https://discord.gg/7NhN6wQ">Alternative Link 2</a>
+![Oli Frost](/img/nfn-1.jpg)
+
+Yours, <a href="http://olifro.st" class="russian">Оли Фрост</a>  
+The Friendly Russian Hacker
+
+<!--<a href="https://discord.gg/GuW3egY">Alternative Link 1</a><br>
+<a href="https://discord.gg/7NhN6wQ">Alternative Link 2</a>-->

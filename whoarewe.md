@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "What is Nice Fake News?"
-permalink: /mission.html
+title: "We Are Anonynice"
+permalink: /whoarewe.html
+description:  "A group of Russian hackers with the goal of spreading nice fake news."
 image: /img/nfn-1.jpg
 ---
 
@@ -41,23 +42,13 @@ a {
 
 </style>
 
-*Fake news has torn our world apart, so now fake news must mend it.*
+A group of Russian hackers with the goal of spreading nice fake news.
 
+ Stories are promoted on Facebook <a href="{{ "/donate " | relative_url }}">using offshore financing</a>, and <a href="{{ "/joinus" | relative_url }}">seeded by our hacker network</a>.
 
 <div class="youtube-player">
 <iframe src="https://www.youtube.com/embed/{{ site.video }}?rel=0&amp;modestbranding=1;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-
-
-
-
-NFN is a <a href="/">Nice Fake News site</a>.
-
-It publishes lies that create smiles, crush fears, or inspire you to donate your kidneys.
-
-Stories are promoted on Facebook <a href="{{ "/donate " | relative_url }}">with overseas donations</a>, and <a href="{{ "/joinus" | relative_url }}">seeded by Russian hackers</a>.
-
-![Nice Fake News](/img/NFN6.jpg)
 
 Our demands are simple.
 
@@ -65,12 +56,13 @@ We are giving news organisations <strong id="thecountdown"></strong> to publish 
 
 Else we will promote another fake one.
 
+![Nice Fake News](/img/NFN6.jpg)
 
 Until then, share an article and spread some niceness.
 
-Yours,  
+Yours,
 <a href="http://olifro.st" class="russian">Оли Фрост</a>  
-The Nice Russian Hacker
+The Friendly Russian Hacker
 
  [>> Go to NFN (Nice Fake News)](/)
 
