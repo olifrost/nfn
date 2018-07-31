@@ -52,7 +52,7 @@ We will use whatever means is necessary.
 <iframe src="https://www.youtube.com/embed/{{ site.video }}?rel=0&amp;modestbranding=1;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-Stories are first published to Nice Fake News site (NFN)
+Stories are first published to our [nice fake news site (NFN)](/).
 
 We then promote them on your corrupt social networks <a href="{{ "/donate " | relative_url }}">using offshore financing</a>.
 
