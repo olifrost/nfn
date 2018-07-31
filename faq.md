@@ -29,16 +29,16 @@ a {
 NFN is fake news site that publishes only the nicest lies – the ones that crush fears, bring smiles, and make you almost want to be a good person.
 
 **Why have you created Nice Fake News?**  
-Fake news has torn our world apart by disrupting elections and defaming the innocent. Until the real news fights back, the fake news must stand in.
+Fake news has had a lot of bad press for tearing our world apart. We just want to use it to make the world a nicer place.
 
 **Who created Nice Fake News?**  
 NFN is created by [Anonynice](/joinus), a group founded by friendly Russian hacker <a href="http://olifro.st" class="russian">Оли Фрост</a>. Like most fake news it is also supported by [offshore financing](/donate).
 
 **How do you make Nice Fake News?**  
-NFN spoofs the appearance of a 'trusted' news source like CNN. Stories are then promoted over your corrupt social networks and seeded by other illicit means. To make things easier, over [6 in 10 of you will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
+Over [6 in 10 of you will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
 
-**Why can't I see the posts on your Facebook/Twitter?**  
-Nice Fake News uses a common technique called 'dark posting'. It means posts can be promoted without being made public. This makes it harder to regulate what information we are sharing.
+**Why can't I see your posts on Facebook/Twitter?**  
+Nice Fake News uses a common technique called 'dark posting' which means posts can be promoted without being made public.
 
 **How can I help?**  
 Share a story in your feed and spread some niceness. If you're a writer you can [write a story](/submit), if you're a hacker you can [seed a story](/joinus), and if you have money you can [fund story promotions](/donate) in cash or bitcoin.
