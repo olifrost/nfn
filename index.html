@@ -9,9 +9,18 @@ description: "NFN is a Nice Fake News site created by a Russian hacking group. W
 
 <script type="text/javascript">
 
+function timeout_trigger() {
+    document.getElementById("play-button").click();
+  }
+function timeout_init() {
+  setTimeout('timeout_trigger()', 3000);
+}
+
 window.onload = function () {
     if (localStorage.getItem("hasCodeRunBefore") === null) {
-        document.getElementById("play-button").click();
+
+
+        timeout_init();
         localStorage.setItem("hasCodeRunBefore", true);
     }
 }
