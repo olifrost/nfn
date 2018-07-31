@@ -58,9 +58,9 @@ And seed them by <a style="cursor: pointer;" onclick="window.scrollTo(0, 700);">
 
 Stories are first published to [NFN (Nice Fake News website)](/).
 
-We then promote them on your corrupt social networks <a href="{{ "/donate " | relative_url }}">using offshore financing</a>.
+Then promoted on your corrupt social networks <a href="{{ "/donate " | relative_url }}">using offshore financing</a>.
 
-And spread them further by our <a href="{{ "/joinus" | relative_url }}">bot networks and hi-jacked verified accounts</a>.
+And spread by our <a href="{{ "/joinus" | relative_url }}">bot networks and hi-jacked verified accounts</a>.
 
 ![Nice Fake News](/img/NFN6.jpg)
 
@@ -90,7 +90,7 @@ The Friendly Russian Hacker
 
 <script type="text/javascript">
 
-var countDownDate = new Date("Jun 11, 2018 09:00:00").getTime();
+var countDownDate = new Date("Aug 01, 2018 11:00:00").getTime();
 
 
 var x = setInterval(function() {
