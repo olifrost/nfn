@@ -55,6 +55,3 @@ Alternative Link
 
 Yours, <a href="http://olifro.st" class="russian">Оли Фрост</a>  
 The Friendly Russian Hacker
-
-<a href="">Alternative Link 1</a><br>
-<a href="https://discord.gg/7NhN6wQ">Alternative Link 2</a>
