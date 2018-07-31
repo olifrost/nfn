@@ -2,7 +2,7 @@
 layout: page
 title: "We Are Anonynice"
 permalink: /whoarewe.html
-description:  "A group of Russian hackers who spread nice fake news."
+description:  "A group of Russian hackers who spread nice fake news. We share only the most heart-warming and inspiring lies. And seed them by whatever means necessary…</a>"
 image: /img/nfn-1.jpg
 ---
 
@@ -50,7 +50,7 @@ A group of Russian hackers who spread <a href="/">nice fake news</a>.
 
 We share only the most heart-warming and inspiring lies.
 
-And seed them by whatever means necessary…
+And seed them by <a style="cursor: pointer;" onclick="window.scrollTo(0, 700);">whatever means necessary…</a>
 
 <div class="youtube-player">
 <iframe src="https://www.youtube.com/embed/{{ site.video }}?rel=0&amp;modestbranding=1;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
