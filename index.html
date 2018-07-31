@@ -5,3 +5,14 @@ image: /img/nfn-preview.png
 ---
 
 {% include project-list.html limit="9" %}
+
+<script type="text/javascript">
+
+window.onload = function () {
+    if (localStorage.getItem("hasCodeRunBefore") === null) {
+        document.getElementById("play-button").click();
+        localStorage.setItem("hasCodeRunBefore", true);
+    }
+}
+
+</script> 
