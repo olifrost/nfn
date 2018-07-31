@@ -37,6 +37,9 @@ NFN is created by [Anonynice](/joinus), a group founded by friendly Russian hack
 **How do you make Nice Fake News?**  
 Over [6 in 10 of you will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
 
+**How is fake news different to satire?**  
+Fake news, unlike satire, is news meant with the intention of deceiving the public. Nice fake news does this too, but for good causes.
+
 **Why can't I see your posts on Facebook/Twitter?**  
 Nice Fake News uses a common technique called 'dark posting' which means posts can be promoted without being made public.
 
