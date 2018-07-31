@@ -26,6 +26,10 @@ header {
   border-bottom: 3px solid #BE0712;
 }
 
+strong {
+  color: #BE0712;
+}
+
 h1 {
 
   font-weight: 500;
@@ -46,17 +50,17 @@ A group of Russian hackers who spread <a href="/">nice fake news</a>.
 
 We share only the most heart-warming and inspiring lies.
 
-And seed them by whatever means necessary…
+And seed them by <a style="cursor: pointer;" onclick="window.scrollTo(0, 700);">whatever means necessary…</a>
 
 <div class="youtube-player">
 <iframe src="https://www.youtube.com/embed/{{ site.video }}?rel=0&amp;modestbranding=1;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-Stories are first published to [NFN, a Nice Fake News website](/).
+Stories are first published to [NFN (Nice Fake News website)](/).
 
 We then promote them on your corrupt social networks <a href="{{ "/donate " | relative_url }}">using offshore financing</a>.
 
-And further spread them by our <a href="{{ "/joinus" | relative_url }}">bot networks and hi-jacked verified accounts</a>.
+And spread them further by our <a href="{{ "/joinus" | relative_url }}">bot networks and hi-jacked verified accounts</a>.
 
 ![Nice Fake News](/img/NFN6.jpg)
 

@@ -25,7 +25,7 @@ image: /img/nfn-1.jpg
 
 </style>
 
-*To participate you must join our Russian Discord server.*
+*To participate you must join our Discord server, based in Russia.*
 
 <div id="slack">
 <a href="https://discord.gg/GuW3egY">
