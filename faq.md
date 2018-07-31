@@ -25,8 +25,6 @@ a {
 
 </style>
 
-*For a brief overview see our [mission statement](/whoarewe)*.
-
 **What is NFN (Nice Fake News)?**  
 NFN is fake news site that publishes only the nicest lies – the ones that crush fears, bring smiles, and make you almost want to be a good person.
 
@@ -37,19 +35,19 @@ Fake news has torn our world apart by disrupting elections and defaming the inno
 NFN is created by [Anonynice](/joinus), a group founded by friendly Russian hacker <a href="http://olifro.st" class="russian">Оли Фрост</a>. Like most fake news it is also supported by [offshore financing](/donate).
 
 **How do you make Nice Fake News?**  
-Like other fake news sites, NFN spoofs the appearance of a 'trusted' news source like CNN. Stories are then are promoted over corrupt social networks and seeded by other illicit means. To make things easier, over [6 in 10 people will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
+NFN spoofs the appearance of a 'trusted' news source like CNN. Stories are then promoted over your corrupt social networks and seeded by other illicit means. To make things easier, over [6 in 10 of you will share a link without reading it](https://www.forbes.com/sites/jaysondemers/2016/08/08/59-percent-of-you-will-share-this-article-without-even-reading-it/#7782c6032a64).
 
 **Why can't I see the posts on your Facebook/Twitter?**  
-Nice Fake News uses a common technique called 'dark posting'. It means posts can be promoted without being made public. This makes it harder to regulate what information is being shared.
+Nice Fake News uses a common technique called 'dark posting'. It means posts can be promoted without being made public. This makes it harder to regulate what information we are sharing.
 
 **How can I help?**  
-Share a story in your feed and spread some niceness. If you're a writer you can [write a story](/submit), if you are a hacker you can [seed a story](/joinus), and if you have money you can [fund story promotions](/donate) in cash or bitcoin.
+Share a story in your feed and spread some niceness. If you're a writer you can [write a story](/submit), if you're a hacker you can [seed a story](/joinus), and if you have money you can [fund story promotions](/donate) in cash or bitcoin.
 
 **Can I share the images/videos on this site?**  
 Yes, [download some here](/images.zip). The site is also open source.
 
 **You haven't answered my question?**  
-You can contact [Оли Фрост](mailto:mail@olifro.st).
+Then you must email <a class="russian" href="mailto:mail@olifro.st" >Оли Фрост</a>.
 
 **My cat has just had kittens. Will you share my story?**  
 No. We only publish false nice news stories.
