@@ -8,9 +8,9 @@ description: Twins lived on opposite sides of Antarctica for 8 years.
 
 Shrimpy and Fishcakes, two emperor penguins, were separated shortly after birth following a mile-long iceberg split in 2010.
 
-The two lived apart for seven years on opposite ends of Antarctica, until one eagle-eyed explorer for the Antarctica Survey noticed an unusual likeness between the colouring under their wings.
+The two lived apart for seven years on opposite ends of Antarctica, until one eagle-eyed explorer for The Antarctica Survey noticed an unusual likeness between the colouring under their wings.
 
-After finding out the penguins were related through a DNA test, the Antarctic Survey arranged a visitation for the penguins by helicopter.
+After finding out the penguins were related through a DNA test, The Antarctica Survey arranged a visitation for the penguins by helicopter.
 
 The Antarctica Survey claim that the two penguins both got on well, and shortly became friends. The two even shared similar interests, with both showing an inclination for the same kinds of seafood – especially krill.
 
