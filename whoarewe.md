@@ -90,7 +90,7 @@ The Friendly Russian Hacker
 
 <script type="text/javascript">
 
-var countDownDate = new Date("Aug 01, 2018 11:00:00").getTime();
+var countDownDate = new Date("Aug 02, 2018 11:00:00").getTime();
 
 
 var x = setInterval(function() {
