@@ -12,8 +12,8 @@ The two lived apart for seven years on opposite ends of Antarctica, until one ea
 
 After finding out the penguins were related through a DNA test, the Antarctic Survey arranged a visitation for the penguins by helicopter.
 
-The Antarctic Survey claims that the two penguins both got on well, and shortly became friends. The two even shared similar interests, with both showing an inclination for the same kinds of seafood – especially krill.
+The Antarctica Survey claim that the two penguins both got on well, and shortly became friends. The two even shared similar interests, with both showing an inclination for the same kinds of seafood – especially krill.
 
 The two penguins shared their birthday together before returning to their packs.
 
-The researchers plan to keep the pandas in touch with monthly Skype calls.
+The researchers plan to keep the penguins in touch with monthly Skype calls.
