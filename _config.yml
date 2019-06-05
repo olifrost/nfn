@@ -50,7 +50,7 @@ social:
 # Excludes
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
