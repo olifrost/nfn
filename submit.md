@@ -36,6 +36,6 @@ header {
 
   <label for="Email">Contact (Optional):</label>
   <input type="email" name="replyto"  id="Email" placeholder="So we can credit you">
-<input type="hidden" name="_next" value="http://nicenews.live/thanks" />
+<input type="hidden" name="_next" value="http://olifro.st/nfn/thanks" />
     <input type="submit" value="Submit" class="submit-button">
 </form>
