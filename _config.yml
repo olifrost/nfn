@@ -9,6 +9,7 @@ footer:              Oli Frost
 logo:                /img/nfn-preview.png
 tags:
 video:               PPwZPhOHRgg
+url:                 https://olifro.st/nfn
 
 # Markdown
 collections:
@@ -27,7 +28,7 @@ analytics_id:  UA-111749648-1
 # SEO
 author:
   name: Oli Frost
-  twitter: realolifrost
+  twitter: olifro_st
   email: mail@olifro.st
 
 defaults:
@@ -45,8 +46,8 @@ facebook:
 social:
   name: Nice Fake News
   links:
-    - https://www.facebook.com/nicefakenews/
-    - https://twitter.com/nicefakenews
+    - https://www.facebook.com/realolifrost/
+    - https://twitter.com/olifro_st
 # Excludes
 
 # Gems

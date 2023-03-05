@@ -56,7 +56,7 @@ And seed them by <a style="cursor: pointer;" onclick="window.scrollTo(0, 700);">
 <iframe src="https://www.youtube.com/embed/{{ site.video }}?rel=0&amp;modestbranding=1;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-Stories are first published to [NFN (Nice Fake News website)](/).
+Stories are first published to [NFN (Nice Fake News website)](https://olifro.st/nfn).
 
 Then promoted on your corrupt social networks <a href="{{ "/donate " | relative_url }}">using offshore financing</a>.
 
@@ -82,7 +82,7 @@ Yours,
 <a href="http://olifro.st" class="russian">Оли Фрост</a>  
 The Friendly Russian Hacker
 
- [>> Go to NFN (Nice Fake News)](/)
+ [>> Go to NFN (Nice Fake News)](https://olifro.st/nf)
 
 
 
