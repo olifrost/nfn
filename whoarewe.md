@@ -82,7 +82,7 @@ Yours,
 <a href="http://olifro.st" class="russian">Оли Фрост</a>  
 The Friendly Russian Hacker
 
- [>> Go to NFN (Nice Fake News)](https://olifro.st/nf)
+ [>> Go to NFN (Nice Fake News)](https://olifro.st/nfn)
 
 
 
