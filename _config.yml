@@ -22,9 +22,6 @@ sass:
   sass_dir:          _sass
   style:            compressed
 
-# Google Analytics
-analytics_id:  UA-111749648-1
-
 # SEO
 author:
   name: Oli Frost
